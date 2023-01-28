@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumes</title>
+    <link rel="stylesheet" href="resumePage.css">
+</head>
+<body onload="fetchData()">
+    <br>
+    <div class="log_out_div"><input type="button" id="log_out" value="Log out"></div><br>
+    <div class="search_div"><input type="text" id="search_box" placeholder="search for keywords to filter resume">
+    <input type="button" id="search_button" value="Search"></div>
+    <div class="error_display_div" id="error_img"></div>
+    <div class="prev_next_buttons" id="buttons_div"><input type="button" id="prev_button" value="Previous"><input type="button" id="next_button" value="Next"></div>
+    <br><br>
+
+    <div class="resume_div" id="resume_display_div">
+            <div class="head_div">
+                
+                <table> 
+                    <tr>
+                        <td><label id="candidate_name">Candidate Name</label></td>
+                     
+                        <td rowspan="2"> <img src="images/icons8-profile-96.png"></td>
+                    </tr>   
+                    <tr>
+                    <td>Applied for: <label id="applied_for"></label></td>
+                    </tr>
+                </table>
+                          
+             </div>
+            <div class="body_div">
+
+             <div class="personal_info_div">
+
+                <label class="personal_info_label">Personal Information</label>
+                <span id="phone_no" ></span><br>
+                <span id="email"></span><br>
+                <span id="network_url"></span><br><br>
+                <label class="personal_info_label">Technical Skills</label>
+                <ul id="skill_set" ></ul>
+                <label class="personal_info_label">Hobbies</label>
+                <ul id="hobbies_list"></ul>
+
+             </div>
+
+             <div class="experience_div">
+
+               <label class="heading_label">Work Experience in previous company</label><br>
+                <label class="subheading_label">Company Name : </label><span id="company_name"></span><br>
+                <label class="subheading_label">Position : </label><span id="job_position"></span><br>
+                <label class="subheading_label">Start Date : </label><span id="job_start_date"></span><br>
+                <label class="subheading_label">End Date : </label><span id="job_end_date"></span><br>
+                <label class="subheading_label">Summary : </label><span id="job_summary"></span><br>
+
+              <label class="heading_label">Projects</label><br>
+              <label class="subheading_label"><span id="project_name"></span><span id="project_description"></span></label><br>
+
+              <label class="heading_label">Education</label><br>
+              <label class="subheading_label">UG : </label><span id="ug"></span>
+              <label class="subheading_label">Senior Secondary : </label><span id="senior_secondary"></span>
+              <label class="subheading_label">High School : </label><span id="high_school"></span><br>
+
+
+              <label class="heading_label">Internship</label><br>
+                <label class="subheading_label">Company Name : </label><span id="intern_company"></span><br>
+                <label class="subheading_label">Position : </label><span id="intern_position"></span><br>
+                <label class="subheading_label">Start Date : </label><span id="intern_start_date"></span><br>
+                <label class="subheading_label">End Date : </label><span id="intern_end_date"></span><br>
+                <label class="subheading_label">Summary : </label><span id="intern_summary"></span><br>
+                <label class="heading_label">Achievements</label><span id="achievements"></span><br>
+
+
+             </div>
+
+            </div>
+
+        
+    </div>
+
+    <script src="resumePage.js"></script>
+</body>
+</html>

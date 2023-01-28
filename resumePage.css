@@ -1,0 +1,169 @@
+.search_div{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+#search_box{
+    width: 300px;
+    text-align: center;
+}
+
+#search_button{
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.prev_next_buttons{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+#prev_button{
+
+    border-radius: 10px;
+    background-color: grey;
+    float: left;
+    
+}
+
+#next_button{
+    border-radius: 10px;
+    width: 75px;
+    background-color: grey;
+    float: right;
+   
+}
+
+#search_button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+#prev_button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+#next_button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+.resume_div{
+    margin: auto;
+    width: 900px;
+    height: auto;
+    border: 2px solid black;
+}
+
+
+.head_div{
+    
+    background-color: aquamarine;
+    font-weight: bold;
+
+}
+
+table{
+    width: 800px;
+    margin-left: 90px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#candidate_name{
+    font-size: 40px;
+}
+
+#applied_for{
+    font-size: 25px;
+}
+
+.body_div{
+
+    display: grid;
+    grid-template-columns: 200px 600px;
+    
+}
+
+.personal_info_div{
+    padding-top: 4px;
+    width: 200px;
+    height: fit-content;
+    background-color: rgb(236, 143, 189);
+    text-align: center;
+    
+}
+
+.personal_info_label{   
+    background-color: grey;
+    font-weight: bold; 
+    display: block;
+}
+
+.experience_div{
+
+    margin-left: 15px;
+}
+.heading_label{
+
+    font-weight: bold;
+}
+
+.subheading_label{
+
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#skill_set,#hobbies_list{
+    list-style: circle;
+    text-align: left;
+    font-size: 15px;
+}
+
+#job_summary,#project_description,#ug,#senior_secondary,#high_school,#intern_summary,#achievements{
+    display: block;
+    margin-left: 25px;
+    
+} 
+
+span{
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+
+#project_name{
+    font-weight: bold;
+}
+
+.error_display_div{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background-image: url('images/no_result_image.gif');
+    display: none;
+}
+
+.log_out_div{
+    text-align: right;
+    margin-right: 20px;
+}
+#log_out{
+    border-radius: 10px;
+    background-color: crimson;
+    color: black;   
+}
+
+#log_out:hover{
+    background-color:grey;
+}

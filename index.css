@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+
+.outer_box{
+
+    margin: auto;
+    padding-top:70px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-bottom:70px;
+    width: 300px;
+    height: 150px;
+    border: black 2px solid;
+    background-color:lightgreen;
+}
+
+#sign_in{
+    font-weight: bold;
+}
+
+#login_button{
+    margin-left: 90px;
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+#login_button:hover{
+    background-color:grey ;
+    color: whitesmoke;
+}
+.textbox{
+    width :250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#error_msg{
+    visibility: hidden;
+    color: red;
+    font-style: italic;
+}
